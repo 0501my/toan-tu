@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="chuyen-doi-tien.js"></script>
+<body>
+<table>
+    <tr>
+        <td>Amount</td>
+        <td></td>
+        <td>From Currency</td>
+        <td></td>
+        <td>To Currency</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><input type="number" id="money"></td>
+        <td></td>
+        <td>
+            <select id="select1">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+            </select>
+        </td>
+        <td></td>
+        <td>
+            <select id="select2">
+                <option id="USD">USD</option>
+                <option id="VND">VND</option>
+            </select>
+        </td>
+        <td>
+            <input type="submit" value="Convert" id="convect" onclick="đổi()">
+        </td>
+    </tr>
+</table>
+<p id="result"></p>
+
+</body>
+</html>
